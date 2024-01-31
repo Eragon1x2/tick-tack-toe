@@ -49,12 +49,11 @@ function App() {
       else {
         return item;
       }
-      
     }))
   }
   useEffect(() => {
-    wining()
-  },[items, player])
+      wining()
+  },[player])
   return (
     <>
     <p>One score: {score.one}</p>
